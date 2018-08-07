@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>正则验证</title>
+	<style type="text/css">
+		#formVal{
+			width: 500px; 
+			margin: 50px auto;
+			display: flex;
+		}
+		ul{
+			display: inline-block;
+			list-style: none;
+			margin-right: -30px;
+		}
+		ul li{
+			height: 30px;
+			margin-bottom: 10px;
+		}
+		ul:first-child{
+			text-align: right;
+		}
+		ul#results{color: blue;}
+	</style>
+	<script type="text/javascript" src="regExpVal.js"></script>
+</head>
+<body>
+	<div id="formVal">
+		<ul id="name">
+			<li>邮箱：</li>
+			<li>手机：</li>
+			<li>QQ：</li>
+			<li>电话：</li>
+			<li>身份证：</li>
+			<li>URL：</li>
+			<li>16进制颜色：</li>
+			<li>浮点数：</li>
+			<li>正整数：</li>
+			<li>汉字：</li>
+		</ul>
+		<ul id="inputs">
+			<li><input type="text" name="email"></li>
+			<li></label><input type="text" name="phone"></li>
+			<li><input type="text" name="qq"></li>
+			<li><input type="text" name="tel"></li>
+			<li><input type="text" name="idCard"></li>
+			<li><input type="text" name="url"></li>
+			<li><input type="text" name="color"></li>
+			<li><input type="text" name="float"></li>
+			<li><input type="text" name="num"></li>
+			<li><input type="text" name="hanzi"></li>
+		</ul>
+		<ul id="btns">
+			<li><button id="btn_email">点击验证</button></li>
+			<li><button id="btn_phone">点击验证</button></li>
+			<li><button id="btn_qq">点击验证</button></li>
+			<li><button id="btn_tel">点击验证</button></li>
+			<li><button id="btn_idCard">点击验证</button></li>
+			<li><button id="btn_url">点击验证</button></li>
+			<li><button id="btn_color">点击验证</button></li>
+			<li><button id="btn_float">点击验证</button></li>
+			<li><button id="btn_num">点击验证</button></li>
+			<li><button id="btn_hanzi">点击验证</button></li>
+		</ul>
+		<ul id="results">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</body>
+</html>
